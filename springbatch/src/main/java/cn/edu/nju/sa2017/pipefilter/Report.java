@@ -52,6 +52,7 @@ public class Report {
         this.staffName = staffName;
     }
 
+    @XmlElement(name = "staffdate")
     public Date getDate() {
         return date;
     }
